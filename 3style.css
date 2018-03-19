@@ -1,0 +1,56 @@
+body{background-color:#70dbdb;
+    font-family:"helvetica";
+  }
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+<body{background-color:#70dbdb;
+    font-family:"helvetica";
+  }
+  h1 {
+       color:white;
+       font-family:"gotham";
+       font-size:50px;
+       background-color:#248f8f;
+       margin-top: 20px;
+       text-align: left;
+  }
+  h1: hover{
+    color:white;
+  }
+
+<div class="gallery">
+  <a target="_blank" href="Copenaghen.jpg">
+    <img src="Copenaghen.jpg" alt="Copenaghen" width="300" height="200">
+  </a>
+  <div class="desc"> A day of sun in Copenaghen</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Copenaghen.jpg">
+    <img src="sun and water" alt="sun and water" width="300" height="200">
+  </a>
+  <div class="desc">Sun and water</div>
+</div>
+
+
+</body>
+</html>
